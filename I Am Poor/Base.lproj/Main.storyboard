@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="I_Am_Poor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I Am Poor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AcK-Gx-eWh">
+                                <rect key="frame" x="107.66666666666669" y="254" width="178" height="47"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
+                                <color key="textColor" red="0.74901960784313726" green="0.67450980392156867" blue="0.8784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coal_icon" translatesAutoresizingMaskIntoConstraints="NO" id="11I-CO-iBd">
+                                <rect key="frame" x="46.666666666666657" y="301" width="300" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="6uX-RX-zES"/>
+                                    <constraint firstAttribute="width" constant="300" id="DrP-dP-AOf"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.39215686274509803" green="0.36078431372549019" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="11I-CO-iBd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="06P-0u-Nxb"/>
+                            <constraint firstItem="11I-CO-iBd" firstAttribute="top" secondItem="AcK-Gx-eWh" secondAttribute="bottom" id="K4O-UQ-12h"/>
+                            <constraint firstItem="AcK-Gx-eWh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UKq-Wd-c71"/>
+                            <constraint firstItem="11I-CO-iBd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wJE-g5-CdR"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="36" y="3.1484257871064472"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="coal_icon" width="534.66668701171875" height="487.33334350585938"/>
+    </resources>
+</document>
